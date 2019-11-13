@@ -1,2 +1,2 @@
 # MyWebsite
-simple as that: this is the whole coding for my first personal website :)
+simple as that: this is my whole first personal website :)
