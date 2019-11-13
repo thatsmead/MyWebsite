@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1496098236379-e7c6cfb4a70d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9);
+}
+
+p{
+    font-size: 2.2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wip{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.2vw;
+}
+
+p span{
+    text-decoration: underline;
+    color: #032DC3;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    max-width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+    border-radius: 2%;
+}
+
+img{
+    width: 45vw;
+}
+
+  

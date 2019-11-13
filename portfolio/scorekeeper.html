@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarpanch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="scorekeeper.css">
+</head>
+<body>
+
+<div class="container whole text-center">
+
+    <h1 style="font-size:8vw;" id="title">SCORE  KEEPER</h1>
+
+    <div class="jumbotron points">
+      <h1 style="font-size:12vw;" > <span id="tgDisplay">0</span> - <span id="tbDisplay">0</span> </h1>
+      <br>
+      <button style="font-size:2vw;" id="tg" >HOME</button> <button style="font-size:2vw;" id="tb" >GUEST</button>
+      <br>
+      <h3 class="hidden won">YOU WON!</h3>
+    
+    </div>
+
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalCenter">
+      <i class="fas fa-cog"></i> SETUP
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle"> <i class="fas fa-cog"></i> SETTINGS </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="to">
+                <p>playing to: <span id="span">99</span>
+                  <br><br> <input class="input" type="number" placeholder=" choose winning score ">
+                </p>
+              </div>
+                
+              <br>
+
+              <div class="teams">
+                <p>team name <input id="gt" type="text" placeholder=" home "></p>
+                <p>team name <input id="bt" type="text" placeholder=" guest "></p>                     
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-dark">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <button id="reset" type="button" class="btn btn-light"> <i class="fas fa-undo-alt"></i> RESET </button>
+
+    <br>
+    <br>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src='scorekeeper.js'></script>
+</body>
+</html>

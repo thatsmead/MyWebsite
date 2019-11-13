@@ -1,0 +1,153 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+    height: 100vh;
+    background-color: #F1F1F1;
+    font-family: 'Montaga', serif;
+    color: black;
+}
+
+nav {
+    background-color: transparent;
+    position: fixed;
+}
+
+.nav-link {
+    font-family: 'Major Mono Display', monospace;
+    color: black;
+    text-shadow: 2px 2px 0px #F1F1F1, 5px 4px 0px rgba(0,0,0,0.15);
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1138&q=80");
+  
+    /* Set a specific height */
+    height: 80vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity : 0.8;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity : 0.8;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity : 0.8;
+}
+
+.container {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #F1F1F1;
+}
+#cname{
+    font-size: 10rem;
+}
+#cphrase{
+    font-size: 2rem;
+}
+
+.intros{
+    text-align: center;
+}
+
+.intros h1 {
+    font-size: 4rem;
+}
+
+.intros p {
+    font-size: 2rem;
+}
+
+#chiaro{
+    color: #F1F1F1;
+}
+
+main {
+    text-align: center;
+    padding: auto 5%;
+    font-size: 1rem;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: #F1F1F1;
+}
+
+i {
+    font-size: 6rem;
+    padding-bottom: 6%;
+    padding-top: 5%;
+}
+
+#mainwhat{
+    text-align: center;
+    padding: auto 5%;
+    font-size: 1rem;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: black;
+}
+
+i span {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+h4 {
+    margin-bottom: 4%;
+}
+
+input{
+    margin: 1% auto;
+}
+
+#mex {
+    height:100px
+}
+
+#close {
+    text-align: center;
+    margin: 3% auto;
+}
